@@ -25,5 +25,6 @@ public class TC_004 extends BaseClass
 		String title=eUtil.getDataFromExcelFile("contact", 1, 3);
 		CreatingNewContectPage cnc=new CreatingNewContectPage(driver);
 		cnc.createNewContect(fname, lname, title);
-	}
+		System.out.println("Done");
+		}
 }
